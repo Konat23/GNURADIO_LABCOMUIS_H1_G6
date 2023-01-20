@@ -206,14 +206,14 @@ blocks:
   parameters:
     comment: ''
     gui_hint: ''
-    label: num_bps
+    label: n bit por simbolo
     min_len: '200'
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: '1'
     step: '1'
     stop: '4'
-    value: '3'
+    value: '1'
     widget: counter_slider
   states:
     bus_sink: false
@@ -320,9 +320,9 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [832, 332.0]
+    coordinate: [832, 372.0]
     rotation: 0
-    state: true
+    state: enabled
 - name: blocks_add_xx_0
   id: blocks_add_xx
   parameters:
@@ -363,7 +363,7 @@ blocks:
     affinity: ''
     alias: ''
     comment: ''
-    const: '2'
+    const: '1'
     maxoutbuf: '0'
     minoutbuf: '0'
     type: float
@@ -408,7 +408,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [616, 332.0]
+    coordinate: [600, 340.0]
     rotation: 0
     state: true
 - name: blocks_uchar_to_float_0
@@ -1022,7 +1022,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [360, 756.0]
+    coordinate: [96, 492.0]
     rotation: 0
     state: true
 - name: virtual_source_1
